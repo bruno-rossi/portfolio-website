@@ -14,3 +14,21 @@ export type SocialLink = {
 export type SocialLinkListItemProps = {
     link: SocialLink;
 }
+
+export type Role = {
+    id: number,
+    dateStarted: string,
+    dateEnded: string,
+    companyName: string,
+    titles: string[],
+    description: string,
+    technologiesUsed: string[]
+}
+
+export type RoleProps = {
+    role: Role
+}
+
+export type TechnologyProps = {
+    technology: string
+}
