@@ -11,9 +11,9 @@ export default function Role({ role }: RoleProps) {
                     {role.titles.map(title => <h3>{title}</h3>)}
                 </div>
                 <p className="mb-4">{role.description}</p>
-                <ul className="inline-flex justify-center space-x-4">
+                {/* <ul className="flex flex-wrap gap-4">
                     {role.technologiesUsed.map(technology => <Technology key={technology} technology={technology} />)}
-                </ul>
+                </ul> */}
             </div>
         </li>
     )
