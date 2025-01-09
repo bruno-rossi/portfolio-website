@@ -32,3 +32,16 @@ export type RoleProps = {
 export type TechnologyProps = {
     technology: string
 }
+
+export type Project = {
+    id: number,
+    title: string,
+    description: string,
+    image: string,
+    link: string,
+    technologiesUsed: string[]
+}
+
+export type ProjectCardProps = {
+    project: Project
+}
