@@ -1,26 +1,12 @@
 // Import icons here
 //  Import fonts
-import { SocialLinkListItemProps } from "@/app/lib/definitions"
-
-const socialLinks = [
-    {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/brossi1/"
-    },
-    {
-        name: "GitHub",
-        url: "https://github.com/bruno-rossi"
-    },
-    {
-        name: "Blog",
-        url: "https://brunorossi.hashnode.dev/"
-    }
-]
+import { SocialLinkListItemProps } from "@/app/lib/definitions";
+import { socialLinks } from "@/app/lib/data";
 
 export default function SocialLinksList() {
 
     return (
-        <ul className="flex-nowrap justify-center space-x-4">
+        <ul className="group/list flex-nowrap justify-center space-x-4">
             {socialLinks.map(link => <SocialLinkListItem key={link.name} link={link} />)}
         </ul>
     )
@@ -30,7 +16,7 @@ export function SocialLinkListItem({ link }: SocialLinkListItemProps) {
     // const { icon: Icon } = link;
 
     return (
-        <li className="inline-flex">
+        <li className="group inline-flex lg:hover:!opacity-100 lg:group-hover/list:opacity-50">
             <a 
                 href={link.url} 
                 target="_blank" 
