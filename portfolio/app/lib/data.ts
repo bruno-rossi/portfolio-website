@@ -1,3 +1,18 @@
+export const socialLinks = [
+    {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/brossi1/"
+    },
+    {
+        name: "GitHub",
+        url: "https://github.com/bruno-rossi"
+    },
+    {
+        name: "Blog",
+        url: "https://brunorossi.hashnode.dev/"
+    }
+]
+
 export const experience = [
     {
         id: 1,
@@ -5,7 +20,7 @@ export const experience = [
         dateEnded: "2023",
         companyName: "WeWork",
         titles: ["Localization Project Coordinator", "Localization Program Manager", "Sr. Localization Program Manager"],
-        description: "Managed the end-to-end Localization program for member-facing digital products into 26 languages.\p\pWorked cross-functionally with stakeholders across Product, Engineering, Design, Marketing, Finance, and Legal to advocate for WeWork members globally, to ensure that Globalization needs were prioritized in roadmaps, and to automate processes to provide localization support at scale.",
+        description: "Managed the end-to-end Localization program for member-facing digital products into 26 languages. Worked cross-functionally with stakeholders across Product, Engineering, Design, Marketing, Finance, and Legal to advocate for WeWork members globally, to ensure that Globalization needs were prioritized in roadmaps, and to automate processes to provide localization support at scale.",
         technologiesUsed: ["Smartling", "monday.com"]
     },
     {
@@ -24,7 +39,7 @@ export const projects = [
         id: 1,
         title: "\“Grasp\” — AI-powered language-learning app",
         description: "As a perpetual language learner, I created a full-stack app designed to bring fun, creativity, and AI into the language learning experience.",
-        image: "",
+        image: "https://cdn.hashnode.com/res/hashnode/image/upload/v1712079275617/1863a501-d781-4656-b277-e99771abaee7.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
         link: "https://www.loom.com/share/130e1459a8904967b371919e77dc03a8?sid=8b904801-d0b3-4ca0-9933-900ad26300ac",
         technologiesUsed: ["React", "Flask", "SQLite3", "HTML", "CSS", "JavaScript", "bcrypt", "OpenAI"]
     },
