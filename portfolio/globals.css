@@ -10,4 +10,8 @@
       --highlights-2: 219 203 216;
       --details: 86 71 135;
     }
+
+    html {
+        font-family: "Ubuntu"
+    }
   }

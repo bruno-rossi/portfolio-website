@@ -12,6 +12,12 @@ export default function Home() {
             <h2 className="mt-3 text-lg font-medium tracking-tight sm:text-xl">Software Engineer | Localization Program Manager</h2>
             <p className="mt-4 max-w-xs leading-normal">Bruno Rossi is a software engineeer and localization program manager with a passion for building globalization-friendly apps.</p>
           </div>
+          <nav className="lg:visible invisible my-8">
+            <ol className="group/list">
+              <li className="hover:text-lg hover:before:content-['——']"><a href="#projects">Projects</a></li>
+              <li className="hover:text-lg hover:before:content-['——']"><a href="#experience">Experience</a></li>
+            </ol>
+          </nav>
           <SocialLinksList />
         </header>
         <main id="content" className="pt-24 lg:w-[52%] lg:py-24">
