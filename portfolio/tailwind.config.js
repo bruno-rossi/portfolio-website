@@ -14,6 +14,12 @@ module.exports = {
       highlights2: 'rgb(var(--highlights-2))',
       details: 'rgb(var(--details))',
     },
+    fontFamily: {
+      'html': ['Ubuntu', 'sans-serif']
+    },
+    fontWeight: {
+      bold: '700',
+    }
   },
   plugins: [],
 }
